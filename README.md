@@ -6,8 +6,8 @@
 - 將所偵測的物件座標點傳給追蹤器  
 - 進行物件追蹤  
 - 生成一個影片包含物件追蹤的結果  
-
-
+  
+  
 - Turn on the camera and use a program to capture the camera feed.
 - Use YOLOv8 to perform object detection and recognition on the first frame.
 - Send the detected object coordinates to the tracker.
