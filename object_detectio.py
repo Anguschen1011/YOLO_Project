@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-from ultralytics import YOLO  # YOLOv8 library
+from ultralytics import YOLO
 
 def detection(yolo_model, cap, out):
     # 第一幀處理
