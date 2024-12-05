@@ -3,6 +3,7 @@
 
 ## Environments
 ```
+pip install ultralytics
 pip install opencv-contrib-python
 ```
 
