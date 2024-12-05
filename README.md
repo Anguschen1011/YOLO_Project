@@ -7,8 +7,8 @@
 4. 進行物件追蹤
 5. 生成一個影片包含物件追蹤的結果
 
-1.	Turn on the camera and use a program to capture the camera feed.
-2.	Use YOLOv8 to perform object detection and recognition on the first frame.
-3.	Send the detected object coordinates to the tracker.
-4.	Perform object tracking.
-5.	Generate a video containing the results of object tracking.
+1. Turn on the camera and use a program to capture the camera feed.
+2. Use YOLOv8 to perform object detection and recognition on the first frame.
+3. Send the detected object coordinates to the tracker.
+4. Perform object tracking.
+5. Generate a video containing the results of object tracking.
