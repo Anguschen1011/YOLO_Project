@@ -3,7 +3,7 @@
 
 ## Environments
 ```
-pip install opencv-contrib-python==4.10.0.84
+pip install opencv-contrib-python
 ```
 
 ## Object Detection Using YOLOv8
