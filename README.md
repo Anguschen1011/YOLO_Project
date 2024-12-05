@@ -1,6 +1,12 @@
 #### 資訊工程學系(1131)
 # 智慧多媒體設計與創作實驗(B4CS040007A)
 
+# Environments
+```
+pip install opencv-contrib-python==4.10.0.84
+```
+
+# Object Detection Using YOLOv8
 - 開啟攝影機，使用程式擷取攝影機的畫面  
 - 將第一個 Frame，使用 YOLOv8 進行物件偵測與辨識  
 - 將所偵測的物件座標點傳給追蹤器  
