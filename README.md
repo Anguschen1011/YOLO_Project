@@ -3,6 +3,10 @@
 
 ## Environments
 ```
+conda create --name object_detection python=3.8 -y
+conda activate object_detection
+
+# install packages
 pip install ultralytics
 
 pip uninstall opencv-python
