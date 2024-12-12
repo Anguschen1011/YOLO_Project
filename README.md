@@ -32,6 +32,8 @@ pip install opencv-contrib-python
 ```
 Realtime_object_detection/object_detectio.py
 ```
+### Results
+![result_example](Realtime_object_detection/result/results.mp4) 
 
 ## 2. Object Segmentation Using YOLOv9c
 NuInsSeg Dataset : [[Kaggle]](https://www.kaggle.com/datasets/ipateam/nuinsseg/data)
