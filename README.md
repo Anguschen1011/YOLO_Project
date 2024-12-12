@@ -26,7 +26,9 @@ pip install ultralytics
 pip uninstall opencv-python
 pip install opencv-contrib-python
 ```
-`Realtime_object_detection/object_detectio.py`
+```
+Realtime_object_detection/object_detectio.py
+```
 
 ## 2. Object Segmentation Using YOLOv9c
 NuInsSeg Dataset : [[Kaggle]](https://www.kaggle.com/datasets/ipateam/nuinsseg/data)
@@ -43,7 +45,9 @@ pip install pycocotools
 pip install scikit-learn 
 pip install matplotlib
 ```
-`Nuclei_Instance_Segmentation/Yolov9c_segmentation.ipynb`
+```
+Nuclei_Instance_Segmentation/Yolov9c_segmentation.ipynb
+```
 
 ### Results
 ```
@@ -89,6 +93,9 @@ conda activate object_detection
 pip install ultralytics
 sudo apt install tree
 ```
+```
+Underwater_Plastic_Pollution_Detection/yolov10m_detection.ipynb
+```
 
 ### Results
 ```
@@ -99,7 +106,6 @@ metrics/recall(B)   : 48.160 %
 metrics/mAP50(B)    : 56.004 %
 metrics/mAP50-95(B) : 38.722 %
 ```
-`Underwater_Plastic_Pollution_Detection/yolov10m_detection.ipynb`
 
 ![result_example_4](Underwater_Plastic_Pollution_Detection/results/results.png)
 ![result_example_5](Underwater_Plastic_Pollution_Detection/results/val_batch2_pred.jpg)  
