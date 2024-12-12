@@ -26,8 +26,44 @@ pip install ultralytics
 pip uninstall opencv-python
 pip install opencv-contrib-python
 ```
-
 ## 2. Object Detection Using YOLOv10m
+NuInsSeg Dataset : [[Kaggle]](https://www.kaggle.com/datasets/ipateam/nuinsseg/data)
+- contains more than 30k manually segmented nuclei from 31 human and mouse organs and 665 image patches extracted from H&E-stained whole slide images.  
+
+### Environments
+```
+conda create --name object_detection python=3.8 -y
+conda activate object_detection
+
+# install packages
+pip install ultralytics 
+pip install pycocotools 
+pip install scikit-learn 
+pip install matplotlib
+```
+
+### Results
+```
+Result after training 100 epochs
+
+Box:
+P        : 84.8 %
+R        : 79.6 %
+mAP50    : 87.2 %
+mAP50-95 : 51.9 %
+
+Mask:
+P        : 83.9 %
+R        : 78.3 %
+mAP50    : 85.6 %
+mAP50-95 : 46.5 %
+```
+
+![result_example_1](Underwater_Plastic_Pollution_Detection/results/results.png)
+![result_example_2](Underwater_Plastic_Pollution_Detection/results/val_batch2_pred.jpg)  
+<p align="center"></p> 
+
+## 3. Object Detection Using YOLOv10m
 Underwater Plastic Pollution Detection Dataset : [[Kaggle]](https://www.kaggle.com/datasets/arnavs19/underwater-plastic-pollution-detection)
 - Train Directory:  
   - Contains 3,628 images along with their associated labels.  
@@ -44,8 +80,8 @@ conda create --name object_detection python=3.8 -y
 conda activate object_detection
 
 # install packages
-pip install -q ultralytics
-sudo apt install -q tree
+pip install ultralytics
+sudo apt install tree
 ```
 
 ### Results
