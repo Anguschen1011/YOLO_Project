@@ -54,7 +54,8 @@ Nuclei_Instance_Segmentation/Yolov9c_segmentation.ipynb
 
 ### Results
 ```
-Result after training 100 epochs
+Result after training 100 epochs.
+Training on Colab T4 GPU
 
 Box:
 P        : 84.8 %
@@ -103,6 +104,7 @@ Underwater_Plastic_Pollution_Detection/yolov10m_detection.ipynb
 ### Results
 ```
 Result after training 20 epochs
+Training on Colab T4 GPU
 
 precision(B)        : 65.012 %
 metrics/recall(B)   : 48.160 %
