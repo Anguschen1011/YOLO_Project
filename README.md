@@ -28,6 +28,7 @@ pip install opencv-contrib-python
 ```
 
 ## 2. Object Detection Using YOLOv10m
+Underwater Plastic Pollution Detection Dataset [Kaggle](https://www.kaggle.com/datasets/arnavs19/underwater-plastic-pollution-detection)
 - Train Directory:  
   - Contains 3,628 images along with their associated labels.  
 - Valid Directory:  
