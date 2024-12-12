@@ -1,18 +1,6 @@
 #### 資訊工程學系(1131)
 # 智慧多媒體設計與創作實驗(B4CS040007A)
 
-## Environments
-```
-conda create --name object_detection python=3.8 -y
-conda activate object_detection
-
-# install packages
-pip install ultralytics
-
-pip uninstall opencv-python
-pip install opencv-contrib-python
-```
-
 ## Object Detection Using YOLOv8
 - 開啟攝影機，使用程式擷取攝影機的畫面  
 - 將第一個 Frame，使用 YOLOv8 進行物件偵測與辨識  
@@ -27,3 +15,14 @@ pip install opencv-contrib-python
 - Send the detected object coordinates to the tracker.
 - Perform object tracking.
 - Generate a video containing the results of object tracking.
+### Environments
+```
+conda create --name object_detection python=3.8 -y
+conda activate object_detection
+
+# install packages
+pip install ultralytics
+
+pip uninstall opencv-python
+pip install opencv-contrib-python
+```
