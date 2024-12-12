@@ -58,5 +58,6 @@ metrics/mAP50(B)    : 56.004 %
 metrics/mAP50-95(B) : 38.722 %
 ```
 
-![result_example](Underwater_Plastic_Pollution_Detection/results/results.png)
+![result_example_1](Underwater_Plastic_Pollution_Detection/results/results.png)
+![result_example_2](Underwater_Plastic_Pollution_Detection/results/val_batch2_pred.jpg)  
 <p align="center"></p> 
