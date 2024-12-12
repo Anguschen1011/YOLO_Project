@@ -1,5 +1,8 @@
 #### 資訊工程學系(1131)
-# 智慧多媒體設計與創作實驗(B4CS040007A)
+# 智慧多媒體設計與創作實驗(B4CS040007A)  
+> 1. Realtime Object Detection Using YOLOv8n  
+> 2. Object Segmentation Using YOLOv9c  
+> 3. Object Detection Using YOLOv10m
 
 ## 1. Realtime Object Detection Using YOLOv8n 
 - 開啟攝影機，使用程式擷取攝影機的畫面  
