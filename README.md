@@ -28,15 +28,14 @@ pip install opencv-contrib-python
 ```
 
 ## 2. Object Detection Using YOLOv10m
-- Train Directory:
--   Contains 3,628 images along with their associated labels.
-- Valid Directory:
--   Comprises 1,001 images paired with their respective labels.
-- Test Directory:
--   Encompasses 501 images along with their labels.
-- Number of Class - 15
-- Class Names - ['Mask', 'can', 'cellphone', 'electronics', 'gbottle', 'glove', 'metal', 'misc', 'net', 'pbag', 'pbottle', 'plastic', 'rod', 'sunglasses', 'tire']
-- 
+- Train Directory:  
+  - Contains 3,628 images along with their associated labels.  
+- Valid Directory:  
+  - Comprises 1,001 images paired with their respective labels.  
+- Test Directory:  
+  - Encompasses 501 images along with their labels.  
+- Number of Class : 15  
+  - Class Names - ['Mask', 'can', 'cellphone', 'electronics', 'gbottle', 'glove', 'metal', 'misc', 'net', 'pbag', 'pbottle', 'plastic', 'rod', 'sunglasses', 'tire']  
 
 <br>
 
