@@ -26,6 +26,8 @@ pip install ultralytics
 pip uninstall opencv-python
 pip install opencv-contrib-python
 ```
+`Realtime_object_detection/object_detectio.py`
+
 ## 2. Object Segmentation Using YOLOv9c
 NuInsSeg Dataset : [[Kaggle]](https://www.kaggle.com/datasets/ipateam/nuinsseg/data)
 - contains more than 30k manually segmented nuclei from 31 human and mouse organs and 665 image patches extracted from H&E-stained whole slide images.  
@@ -41,6 +43,7 @@ pip install pycocotools
 pip install scikit-learn 
 pip install matplotlib
 ```
+`Nuclei_Instance_Segmentation/Yolov9c_segmentation.ipynb`
 
 ### Results
 ```
@@ -59,9 +62,12 @@ mAP50    : 85.6 %
 mAP50-95 : 46.5 %
 ```
 
-![result_example_1](Underwater_Plastic_Pollution_Detection/results/results.png)
-![result_example_2](Underwater_Plastic_Pollution_Detection/results/val_batch2_pred.jpg)  
-<p align="center"></p> 
+![result_example_1](Nuclei_Instance_Segmentation/results/results.png)
+![result_example_2](Nuclei_Instance_Segmentation/results/val_batch2_labels.jpg)  
+<p align="center"><i> Label Data </i></p> 
+
+![result_example_3](Nuclei_Instance_Segmentation/results/val_batch2_pred.jpg)  
+<p align="center"><i> Predict Data </i></p> 
 
 ## 3. Object Detection Using YOLOv10m
 Underwater Plastic Pollution Detection Dataset : [[Kaggle]](https://www.kaggle.com/datasets/arnavs19/underwater-plastic-pollution-detection)
@@ -93,7 +99,8 @@ metrics/recall(B)   : 48.160 %
 metrics/mAP50(B)    : 56.004 %
 metrics/mAP50-95(B) : 38.722 %
 ```
+`Underwater_Plastic_Pollution_Detection/yolov10m_detection.ipynb`
 
-![result_example_1](Underwater_Plastic_Pollution_Detection/results/results.png)
-![result_example_2](Underwater_Plastic_Pollution_Detection/results/val_batch2_pred.jpg)  
+![result_example_4](Underwater_Plastic_Pollution_Detection/results/results.png)
+![result_example_5](Underwater_Plastic_Pollution_Detection/results/val_batch2_pred.jpg)  
 <p align="center"></p> 
