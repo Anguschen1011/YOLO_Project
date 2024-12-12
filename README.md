@@ -26,7 +26,7 @@ pip install ultralytics
 pip uninstall opencv-python
 pip install opencv-contrib-python
 ```
-## 2. Object Detection Using YOLOv10m
+## 2. Object Segmentation Using YOLOv9c
 NuInsSeg Dataset : [[Kaggle]](https://www.kaggle.com/datasets/ipateam/nuinsseg/data)
 - contains more than 30k manually segmented nuclei from 31 human and mouse organs and 665 image patches extracted from H&E-stained whole slide images.  
 
