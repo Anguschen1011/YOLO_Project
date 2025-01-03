@@ -50,10 +50,7 @@ conda create --name object_detection python=3.8 -y
 conda activate object_detection
 
 # install packages
-pip install ultralytics 
-pip install pycocotools 
-pip install scikit-learn 
-pip install matplotlib
+pip install matplotlib pycocotools scikit-learn ultralytics 
 ```
 
 See notebook at :  
