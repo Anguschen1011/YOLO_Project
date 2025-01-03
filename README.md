@@ -108,6 +108,10 @@ See more reults in :
 ```
 Underwater_Plastic_Pollution_Detection/results
 ```
+Video prediction in :   
+```
+Underwater_Plastic_Pollution_Detection/video_predict
+```
 
 ```
 Result after training 100 epochs
