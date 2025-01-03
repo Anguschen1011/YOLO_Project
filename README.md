@@ -7,7 +7,7 @@
 
 ## 1. Realtime Object Detection Using YOLOv8n 
 - Turn on the camera and use a program to capture the camera feed.
-- Use YOLOv8 to perform object detection and recognition on the first frame.
+- Use YOLOv8n model to perform object detection and recognition on the first frame.
 - Send the detected object coordinates to the tracker.
 - Perform object tracking.
 - Generate a video containing the results of object tracking.
