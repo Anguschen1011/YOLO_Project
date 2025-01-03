@@ -1,5 +1,4 @@
-#### 資訊工程學系(1131)
-# 智慧多媒體設計與創作實驗(B4CS040007A)  
+# YOLO model practice  
 > 1. [Realtime Object Detection Using YOLOv8n](https://github.com/Anguschen1011/YOLO_Project/blob/main/README.md#1-realtime-object-detection-using-yolov8n)  
 > 2. [Object Segmentation Using YOLOv9c](https://github.com/Anguschen1011/YOLO_Project/tree/main?tab=readme-ov-file#2-object-segmentation-using-yolov9c)  
 > 3. [Object Detection Using YOLO11m](https://github.com/Anguschen1011/YOLO_Project/tree/main?tab=readme-ov-file#3-object-detection-using-yolo11m)
