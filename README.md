@@ -59,27 +59,12 @@ Nuclei_Instance_Segmentation/Yolov9c_segmentation.ipynb
 Result after training 100 epochs.
 Training on Colab T4 GPU
 
-Box:
-P        : 84.8 %
-R        : 79.6 %
-mAP50    : 87.2 %
-mAP50-95 : 51.9 %
-
-Mask:
-P        : 83.9 %
-R        : 78.3 %
-mAP50    : 85.6 %
-mAP50-95 : 46.5 %
+Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95)
+  all        133       6285      0.848      0.796      0.872      0.519      0.839      0.783      0.856      0.465
 ```
 
-![result_example_1](Nuclei_Instance_Segmentation/results/results.png)
-![result_example_2](Nuclei_Instance_Segmentation/results/val_batch2_labels.jpg)  
-<p align="center"><i> Label Data </i></p> 
 
-![result_example_3](Nuclei_Instance_Segmentation/results/val_batch2_pred.jpg)  
-<p align="center"><i> Predict Data </i></p> 
-
-## 3. Object Detection Using YOLOv10m
+## 3. Object Detection Using YOLO11m
 Underwater Plastic Pollution Detection Dataset : [[Kaggle]](https://www.kaggle.com/datasets/arnavs19/underwater-plastic-pollution-detection)
 - Train Directory:  
   - Contains 3,628 images along with their associated labels.  
@@ -97,23 +82,34 @@ conda activate object_detection
 
 # install packages
 pip install ultralytics
+pip install --upgrade kagglehub albumentations
 sudo apt install tree
 ```
 ```
-Underwater_Plastic_Pollution_Detection/yolov10m_detection.ipynb
+Underwater_Plastic_Pollution_Detection/yolo11m_underwater_plastics_detection.ipynb
 ```
 
 ### Results
 ```
-Result after training 20 epochs
+Result after training 100 epochs
 Training on Colab T4 GPU
 
-precision(B)        : 65.012 %
-metrics/recall(B)   : 48.160 %
-metrics/mAP50(B)    : 56.004 %
-metrics/mAP50-95(B) : 38.722 %
+      Class     Images  Instances      Box(P          R      mAP50  mAP50-95)
+         all       1001       1891      0.857      0.741      0.815      0.523
+        Mask         77         90          1       0.43      0.802      0.624
+         can         18         20      0.854        0.7      0.782      0.308
+   cellphone         61         71      0.931      0.972      0.981      0.885
+ electronics         27         40      0.936       0.73      0.834       0.51
+     gbottle         36         82      0.821      0.744      0.784      0.588
+       glove         37         55      0.916      0.794      0.854       0.71
+       metal         10         22      0.794      0.351      0.596      0.363
+        misc         48         51       0.58      0.813      0.685      0.407
+         net        146        148      0.937      0.907      0.952      0.699
+        pbag        290        330      0.895      0.961       0.98      0.873
+     pbottle        122        284      0.803      0.777      0.822      0.515
+     plastic         51         59      0.721       0.61      0.665      0.272
+         rod          7          9      0.854      0.667      0.715      0.253
+  sunglasses          3          3      0.977          1      0.995      0.478
+        tire        143        627      0.834      0.667      0.777      0.358
 ```
 
-![result_example_4](Underwater_Plastic_Pollution_Detection/results/results.png)
-![result_example_5](Underwater_Plastic_Pollution_Detection/results/val_batch2_pred.jpg)  
-<p align="center"></p> 
