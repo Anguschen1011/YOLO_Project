@@ -2,7 +2,7 @@
 # 智慧多媒體設計與創作實驗(B4CS040007A)  
 > 1. [Realtime Object Detection Using YOLOv8n](https://github.com/Anguschen1011/YOLO_Project/blob/main/README.md#1-realtime-object-detection-using-yolov8n)  
 > 2. [Object Segmentation Using YOLOv9c](https://github.com/Anguschen1011/YOLO_Project/tree/main?tab=readme-ov-file#2-object-segmentation-using-yolov9c)  
-> 3. [Object Detection Using YOLOv10m](https://github.com/Anguschen1011/YOLO_Project/tree/main?tab=readme-ov-file#3-object-detection-using-yolov10m)
+> 3. [Object Detection Using YOLO11m](https://github.com/Anguschen1011/YOLO_Project/tree/main?tab=readme-ov-file#3-object-detection-using-yolo11m)
 
 ## 1. Realtime Object Detection Using YOLOv8n 
 - 開啟攝影機，使用程式擷取攝影機的畫面  
@@ -29,6 +29,7 @@ pip install ultralytics
 pip uninstall opencv-python
 pip install opencv-contrib-python
 ```
+Run  
 ```
 Realtime_object_detection/object_detectio.py
 ```
@@ -50,11 +51,19 @@ pip install pycocotools
 pip install scikit-learn 
 pip install matplotlib
 ```
+
+See notebook at :  
 ```
 Nuclei_Instance_Segmentation/Yolov9c_segmentation.ipynb
 ```
 
 ### Results
+
+See more reults in :   
+```
+Nuclei_Instance_Segmentation/results
+```
+
 ```
 Result after training 100 epochs.
 Training on Colab T4 GPU
@@ -85,11 +94,19 @@ pip install ultralytics
 pip install --upgrade kagglehub albumentations
 sudo apt install tree
 ```
+
+See notebook at :  
 ```
 Underwater_Plastic_Pollution_Detection/yolo11m_underwater_plastics_detection.ipynb
 ```
 
-### Results
+### Results  
+
+See more reults in :   
+```
+Underwater_Plastic_Pollution_Detection/results
+```
+
 ```
 Result after training 100 epochs
 Training on Colab T4 GPU
