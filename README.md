@@ -29,7 +29,7 @@ pip install ultralytics
 pip uninstall opencv-python
 pip install opencv-contrib-python
 ```
-Run  
+### Run  
 ```
 Realtime_object_detection/object_detectio.py
 ```
