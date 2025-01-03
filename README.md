@@ -4,6 +4,8 @@
 > 2. [Object Segmentation Using YOLOv9c](https://github.com/Anguschen1011/YOLO_Project/tree/main?tab=readme-ov-file#2-object-segmentation-using-yolov9c)  
 > 3. [Object Detection Using YOLO11m](https://github.com/Anguschen1011/YOLO_Project/tree/main?tab=readme-ov-file#3-object-detection-using-yolo11m)
 
+
+
 ## 1. Realtime Object Detection Using YOLOv8n 
 - 開啟攝影機，使用程式擷取攝影機的畫面  
 - 將第一個 Frame，使用 YOLOv8 進行物件偵測與辨識  
@@ -33,8 +35,10 @@ pip install opencv-contrib-python
 ```
 Realtime_object_detection/object_detectio.py
 ```
-### Results
+### Results (Running on Apple M1 silicon)
 ![result_example](Realtime_object_detection/result/results.gif) 
+
+
 
 ## 2. Object Segmentation Using YOLOv9c
 NuInsSeg Dataset : [[Kaggle]](https://www.kaggle.com/datasets/ipateam/nuinsseg/data)
@@ -71,6 +75,7 @@ Training on Colab T4 GPU
 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95)
   all        133       6285      0.848      0.796      0.872      0.519      0.839      0.783      0.856      0.465
 ```
+
 
 
 ## 3. Object Detection Using YOLO11m
